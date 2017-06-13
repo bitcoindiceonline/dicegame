@@ -1,0 +1,466 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+strong {
+	font-weight:bold;
+}
+html {
+	background:#050505 url(http://i.imgur.com/lRmcZc3.jpg) repeat-y center top;
+	background-size:100%;
+}
+body {
+	line-height:1;
+	overflow-x:hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+input, select {
+	vertical-align:middle;
+}
+table td {
+	vertical-align:top;
+}
+p, h1, h2, h3, h4, h5 {
+	padding:0px 0px 13px 0px;
+	margin:0px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size:32px;
+	color:#cccccc;
+	text-align:center;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size:21px;
+	color:#fff;
+}
+h3 {
+	font-size:20px;
+	font-family: 'Strait', sans-serif;
+	color:#fff;
+}
+h4{
+	font-size:18px;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+}
+p {
+	font-family: 'Strait', sans-serif;
+	font-size:16px;
+	color:#fff;
+	line-height:19px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+/*** HEADER ***/
+header {
+	background:url(http://i.imgur.com/bqQOgH0.jpg) repeat left top;
+	height:84px;
+	border-bottom:1px solid #999999;
+}
+#logo {
+	width:192px;
+	margin:auto;
+	padding-top:40px;
+}
+nav {
+	width:328px;
+	margin:0 auto 30px;
+}
+nav ul {
+	padding:0;
+	margin:0;
+}
+nav ul li {
+	list-style:none;
+	background:url(http://i.imgur.com/G90Kjar.png) repeat-x left top;
+	height:33px;
+	float:left;
+}
+
+nav ul li a {
+	background:url(http://i.imgur.com/pj2DYnl.png) no-repeat right top;
+	height:21px;
+	display:block;
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	color:#fff;
+	padding:7px 11px 5px;
+	text-decoration:none;
+}
+
+
+nav ul li a:hover, nav ul li:last-child a:hover, nav ul li a:active, nav ul li a:focus, nav ul .selected a {
+	background:url(http://i.imgur.com/izKbXyo.png) repeat-x left top;
+	color:#111111;
+}
+
+nav ul li:last-child a {
+	background:0 none;
+}
+.align-c {
+	text-align:center;
+	padding-bottom:35px;
+	text-decoration:none;
+}
+.align-c a {
+	color:#bdd731;
+}
+/*** BODY ***/
+#body{padding-bottom:100px;}
+.container {
+	width:960px;
+	margin:auto;
+}
+.box-tabbed {
+	background-color:#333333;
+	border-top:2px solid #999999;
+	padding-top:20px;
+}
+.box-tabbed h2 {
+	text-align:center;
+	padding-bottom:20px;
+}
+.box-tabbed .num-box {
+	border-top:1px solid #788532;
+	border-bottom:1px solid #788532;
+}
+.box-tabbed .num-box p {
+	color:#889ea7;
+	font-family: 'Oswald', sans-serif;
+	text-align:right;
+	padding:7px 10px 5px 0;
+	font-size:21px;
+}
+.box-tabbed .num-box p a {
+	color:#889ea7;
+	font-family: 'Oswald', sans-serif;
+	padding:7px 0px 5px 0;
+	font-size:21px;
+	text-decoration:none;
+        width:100%;
+	text-align:right;
+}
+.box-tabbed p {
+	padding:7px 10px 7px 0;
+	font-size:13px;
+	font-family: 'Strait', sans-serif;
+	color:#fff;
+	text-align:right;
+}
+.box-tabbed p a {
+	padding:7px 10px 7px 0;
+	font-size:13px;
+	font-family: 'Strait', sans-serif;
+	color:#fff;
+	text-align:right;
+}
+.col-box1 {
+	width:78px;
+	float:left;
+}
+.col-box2 {
+	width:78px;
+	float:left;
+}
+.col-box3 {
+	width:78px;
+	float:left;
+}
+.col-box4 {
+	width:78px;
+	float:left;
+}
+.col-box5 {
+	width:78px;
+	float:left;
+}
+.col-box6 {
+	width:78px;
+	float:left;
+}
+.col-box7 {
+	width:78px;
+	float:left;
+}
+.col-box8 {
+	width:78px;
+	float:left;
+}
+.col-box9 {
+	width:78px;
+	float:left;
+}
+.col-box10 {
+	width:78px;
+	float:left;
+}
+.col-box11 {
+	width:78px;
+	float:left;
+}
+.col-box12 {
+	width:78px;
+	float:left;
+}
+.br-right {
+	border-right:1px solid #515151;
+}
+.br-right1 {
+	border-right:1px solid #333333;
+}
+.selected-c {
+	background:url(http://i.imgur.com/20LbxLO.jpg) no-repeat left top;
+}
+
+.selected-c p {
+	background:url(http://i.imgur.com/i1DanL1.jpg) no-repeat right top;
+	color:#000!important;
+}
+.selected-c p a {
+	color:#000!important;
+}
+.selected-c1 {
+	background-color:#bdd731;
+}
+.selected-c1 p {
+	color:#000!important;
+}
+.bet-address .cont {
+	background-color:#bdd731;
+}
+.bet-address img {
+	display:block;
+}
+.bet-address .b-add {
+	padding:18px 0 10px 225px;
+	font-family: 'Strait', sans-serif;
+	font-size:24px;
+	float:left;
+}
+.bet-address .b-add span {
+	font-family: 'Strait', sans-serif;
+	color:#333333;
+	font-size:16px;
+}
+.bet-address .b-add a {
+	text-decoration:underline;
+	color:#333333;
+}
+.bet-address .max-min {
+	width:170px;
+	float:right;
+	margin-right:30px;
+	font-family: 'Strait', sans-serif;
+	color:#333333;
+	font-size:15px;
+	padding-top:13px;
+}
+.previous-bets{padding-top:38px;}
+.previous-bets table, .summary-bets table{width:100%;}
+.previous-bets h2{
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+	padding-left:10px;
+}
+.previous-bets .cont{
+	border-top:2px solid #999999;
+	background-color:#333333;	
+}
+.td-col1{width:90px;}
+.td-col2{width:310px;}
+.td-col3{width:95px;}
+.td-col4{width:80px;}
+.td-col5{width:95px;}
+.td-col6{width:125px;}
+.td-col7{width:150px;}
+.br-btm{border-bottom:1px solid #5d6532;}
+.previous-bets p{
+	font-family: 'Strait', sans-serif;
+	color:#fff;
+	font-size:16px;
+	padding:8px 10px 5px;
+	position:relative;
+}
+.td-col2 span a {
+        text-decoration:none;
+	color:#889ea7;	
+}
+.td-col5 span{
+	position:relative;
+	width:20px;
+	display:block;
+	float:left;
+	text-align:center;
+	padding-right:5px;
+}
+.td-col5 strong{font-weight:normal;color:#bdd731;}
+.lose strong{font-weight:normal;color:#fff;}
+.btn-more{padding:15px 10px;}
+.btn-more a{
+	font-family: 'Strait', sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#889ea7;
+}
+.rules-box{
+	background-color:#333333;
+	padding:35px 130px;
+}
+.rules-box ul{display:block; padding:0; margin:0;}
+.rules-box ul li{
+	font-family: 'Strait', sans-serif;
+	font-size:16px;
+	color:#ffffff;
+	list-style:none;
+	background:url(http://i.imgur.com/93gvjKu.jpg) no-repeat left 20px;
+	line-height:48px;
+	padding:0 0 0 15px;
+}
+.rules-box ul li a {
+        color:#bdd731
+}
+.progressbar span{font-size:14px;font-family: 'Strait', sans-serif; color:#fff; text-align:center; display:block;padding:10px 0;}
+.progressbar .progress{width:540px; margin:auto;}
+.progressbar .progress{
+	background:url(http://i.imgur.com/ReoOKLb.jpg) repeat-x left top!important;
+	border:1px solid #505050;
+	 border-radius: 4px;
+	 -webkit-border-radius: 4px;
+}
+.progressbar .progress span{
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
+	color:#111;
+}
+.mid-box{background-color:#333333; padding:20px 10px 30px 20px; margin-top:45px;}
+.mid-box .boxes{width:290px; float:left;}
+.mid-box .boxes a{color:#fff;}
+.mar-r{margin-right:20px;}
+.stake-purchasing{color:#000;font-family: 'Strait', sans-serif; text-align:center; background:url(http://i.imgur.com/9Y7pjaL.png) no-repeat left top;
+height:34px; padding-top:10px; margin-bottom:80px;}
+.stake-purchasing span{font-size:24px;}
+.stake-purchasing  a {
+        text-decoration:underline;
+        color:#333333;
+}
+.stakeholder-box{
+	width:600px;
+}
+.stakeholder-box .previous-bets p{padding:8px 8px 5px;}
+.stake-reports{width:310px;}
+.stakeholder-box .previous-bets{padding-top:0px;}
+.stakeholder-box .previous-bets .td-col2 {width:300px;}
+.stakeholder-box .previous-bets .td-col7{width:175px;} 
+.stakeholder-box .previous-bets .td-col3{width:60px;}
+.stake-reports h2{padding-bottom:35px;}
+.stake-reports ul{margin:0; padding:0;}
+.stake-reports ul li{list-style:none;}
+.stake-reports ul li a{
+	color:#889ea7;
+	font-family: 'Strait', sans-serif;
+	font-size:16px;
+	display:block;
+	padding-bottom:25px;
+	text-decoration:none;
+}
+.stake-reports ul li a:hover{
+	color:#666666;	
+}
+.verify-box span{
+	font-family: 'Strait', sans-serif;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding-bottom:20px;
+}
+.iframe-box{
+	background-color:#808080;
+	width:408px;
+	margin:auto;
+	text-align:right;
+	margin-bottom:35px;
+}
+.past-secrets{
+	width:410px;
+	margin:auto;
+}
+.past-secrets h2{text-align:center;}
+.past-secrets td p{text-align:left;}
+.past-secrets p{text-align:center; font-size:14px;}
+.past-secrets .previous-bets{padding:0;}
+.breadcrumbs{font-size:14px;font-family: 'Strait', sans-serif;color:#fff; margin-bottom:25px;}
+.breadcrumbs a{color:#b0c82f;font-family: 'Strait', sans-serif;font-size:14px; text-decoration:none;}
+.summary-box{width:300px; float:left;}
+.stakeholder-payment{width:600px; float:right;}
+.col-grey{background-color:#444444;}
+.col-blue{background-color:#213138;}
+.stakeholder-payment .previous-bets{padding-top:0;}
+.summary-bets{background-color:#324a55; border-top:2px solid #99a5aa;}
+.size2{width:190px;}
+.size3{width:240px;}
+.summary-bets p{padding:5px 8px;}
+/*** FOOTER ***/
+footer{background-color:#2d3b40; height:29px; border-top:1px solid #999999; padding-top:10px; margin-top:50px; position:fixed; bottom:0; width:100%;}
+.copyc{color:#fff; font-size:13px;font-family: 'Strait', sans-serif; float:left;}
+footer a{font-size:13px;font-family: 'Strait', sans-serif; float:right; color:#bdd731; text-decoration:none;}
+.d-none{display:none;}
+#play-result{
+display:none;
+}
+pre{
+  background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+        line-height: 20px;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace !important;
+        font-size: 13px !important;
+}
+pre span{
+display:inline !important;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace !important;
+font-size: 13px !important;
+padding:0 !important;
+}
